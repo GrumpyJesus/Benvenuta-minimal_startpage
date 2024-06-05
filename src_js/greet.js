@@ -4,13 +4,13 @@ function generateGreeting(name) {
   let greeting = "";
 
   if (currentHour >= 5 && currentHour < 12) {
-    greeting = "Good morning " + name;
+    greeting = "Guten Morgen " + name;
   } else if (currentHour >= 12 && currentHour < 17) {
-    greeting = "Good afternoon " + name;
+    greeting = "Guten Nachmittag " + name;
   } else if (currentHour >= 17 && currentHour < 21) {
-    greeting = "Good evening " + name;
+    greeting = "Guten Abend " + name;
   } else {
-    greeting = "Good night " + name;
+    greeting = "Gute Nacht " + name;
   }
 
   return greeting;
